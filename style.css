@@ -1,12 +1,47 @@
+body {
+  margin: 0;
+}
+.jugadores {
+  display: flex;
+  flex-direction: column;
 
-#jugadores{
-    display: flex;
-    flex-direction: row;
-    height: 50vh;
-    width: 98vw;
-    display: flex;
-    flex-wrap: wrap;
-    border: 0px;
-    padding: 0px;
-    background-color: aqua;
-    } 
+  width: 100%;
+
+  background-color: #89caf05d;
+}
+h2 {
+  margin-left: 20px;
+  font-size: 24px;
+}
+h3 {
+  margin-left: 32px;
+  font-size: 20;
+}
+.campeonesSlider {
+  margin-left: 350px;
+  width: 60%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+.messi {
+  width: 25%;
+}
+.messiImg {
+  width: 25%;
+}
+.messiImgOtra {
+  width: 25%;
+}
+.imgsMessi {
+  display: flex;
+  justify-content: space-around;
+}
+.tittleDimaria {
+  font-size: 40px;
+  color: #e1c770;
+  text-align: center;
+}
+.dimariaImg {
+  width: 50%;
+  margin-left: 470px;
+}
