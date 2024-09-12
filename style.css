@@ -1,0 +1,12 @@
+
+#jugadores{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 98vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px;
+    padding: 0px;
+    background-color: aqua;
+    } 
